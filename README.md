@@ -73,8 +73,10 @@ Example Workflow:
     Plot the regression line.
 
 Example of Expected Output:
+    
     R-squared: A value close to 1 indicates that the model is good at explaining the variance in the target variable.
     Mean Squared Error: A lower value indicates the model has minimal error.
+    
 Insights from Visualization:
     A well-performing model would show predicted values close to the actual values on the scatter plot.
     The regression line should fit the data well if the model is effective in predicting the target.

@@ -69,5 +69,6 @@ Example of Expected Output:
 Insights from Visualization:
     A well-performing model would show predicted values close to the actual values on the scatter plot.
     The regression line should fit the data well if the model is effective in predicting the target.
+
 Conclusion:
     By following the above steps, we can develop a linear regression model that predicts COVID-19 statistics (such as confirmed cases or deaths) based on other variables like New Cases, New Deaths, and New Recovered. This model can provide insights into the trends and help in decision-making processes regarding resource allocation, health measures, and further research.

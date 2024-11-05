@@ -13,6 +13,7 @@ The objective of this project is to implement a simple Linear Regression model u
 6)Prediction and Visualization: Use the model to make predictions on test data and visualize results to assess model accuracy.
 
 Project Phases:
+
 1)Data Collection: The first step in the project involves obtaining a dataset that includes the key features for COVID-19 data in India. The dataset typically contains information such as:
     Date: The date of the recorded data.
     Name of State/UT: The state or Union Territory in India.
@@ -50,19 +51,27 @@ Project Phases:
     Actual vs Predicted Plot: A scatter plot showing how closely the predicted values align with the actual values.
     
 Example Workflow:
+
 1)Load Data: Load the dataset into a pandas DataFrame and clean it (remove missing values, encode categorical features).
+
 2)Preprocess Data:
     Impute or drop missing values.
     Convert categorical variables (State/UT) into numeric form (e.g., using label encoding or one-hot encoding).
     Scale the data using StandardScaler.
+
 3)Split the Data: Split the dataset into training and testing sets using train_test_split().
+
 4)Train the Model: Use Linear Regression to train the model with the training data.
+
 5)Evaluate the Model:
     Use Mean Squared Error (MSE) and R-squared (R²) to evaluate the model performance.
+
 6)Make Predictions: Use the trained model to predict the target variable (e.g., Total Confirmed cases).
+
 7)Visualize:
     Create a scatter plot to compare the actual vs predicted values.
     Plot the regression line.
+
 Example of Expected Output:
     R-squared: A value close to 1 indicates that the model is good at explaining the variance in the target variable.
     Mean Squared Error: A lower value indicates the model has minimal error.
